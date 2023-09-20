@@ -16,7 +16,7 @@ After downloading or cloning the repo, follow these steps. The project relies on
 - `GET http://your_api_endpoint_url`: This returns a generic welcome `.wav` file with instructions directing you to the upload `POST` route.
 - `POST http://your_api_endpoint_url/upload`: This allows you to submit any PDF you would like for conversion.
 
-## How to use
+## How to use (Documented by [ChatGPT](https://chat.openai.com))
 To submit a POST request with a PDF attached, you can use various tools or libraries. One of the most popular tools for testing API endpoints is Postman. Alternatively, you could use `curl` from the command line, or use a programming language's HTTP client.
 
 Here's how you can do it using all three methods:
